@@ -137,7 +137,7 @@ resource "azurerm_virtual_machine" "catapp" {
 
  # tags = {}
 tags = {
-    billable = true
+    department = billable 
 }
 
   # Added to allow destroy to work correctly.
